@@ -4,17 +4,27 @@
     border: border-box;
 }
 body{
-    background-color: rgb(104, 91, 75);
+    background-color: hwb(36 56% 9%);
 }
 
 .navigation-bar{
     border: 2px solid red;
 }
+
 .nav-logo{
-    border: 1px solid cyan;
-    height: 40px;
-    width: 50px;
+    height: 60px;
+    width: 55px;
+    background-image: url(images/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    align-items: center;
 }
+
+
+
+
 .menu{
     display: flex;
     border: 1px solid yellow;
@@ -27,22 +37,72 @@ body{
     
 }
 .menu ul li {
-    margin-left: 20px;
-    padding-left: 30px;
+    margin-left: 60px;
     list-style: none;
-    color: white;
-    background-color: greenyellow;
+    color: black;
+    font-size: large;
+  
     
 }
 .menu ul li a{
     color: red;
-    background-color: greenyellow;
 }
 input{
-    border: 1px solid grey;
+    margin-top: 10px;
+    margin-left: 70px;
+    height: 15px;
 }
 button{
-    height: 15px;
+    margin-top: 10px;
+    border: none;
+    height: 20px;
     width: 40px;
+    background-color: blueviolet;
+    cursor:pointer;
+}
+.today{
+    background-image: url(images/today.jpg);
+    background-size: cover;
+    margin-top: 15px;
+    height: 400px;
+    width: 48%;
+    border: 1px solid grey;
+    background-color: transparent;
+    display: flex;
+    float: left;
     
+}
+
+.today p{
+    color: aqua;
+    vertical-align: bottom;
+}
+.recommend{
+    background-image: url(images/recommend);
+    margin-top: 15px;
+    height: 400px;
+    width: 48%;
+    border: 1px solid grey;
+    background-color: transparent;
+    display: flex;
+    float: right;
+    color: aliceblue;
+}
+
+.facts{
+    margin-top: 10px;
+    display: flex;
+    float: left;
+    border: 1px solid grey;
+    height: 350px;
+    width: 65%;
+    color: white;
+}
+.aside{
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    border: 1px solid grey;
+    height: 350;
+    width: 32%;
 }
