@@ -4,11 +4,11 @@
     border: border-box;
 }
 body{
-    background-color: hwb(36 56% 9%);
+    background-color: hwb(36 62% 5%);
 }
 
 .navigation-bar{
-    border: 2px solid red;
+    border: 2px solid rgb(243, 195, 195);
 }
 
 .nav-logo{
@@ -34,10 +34,10 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
-    
+    margin-left: 45px;
 }
 .menu ul li {
-    margin-left: 60px;
+    margin-left: 45px;
     list-style: none;
     color: black;
     font-size: large;
@@ -48,12 +48,13 @@ body{
     color: red;
 }
 input{
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 70px;
     height: 15px;
 }
 button{
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
     border: none;
     height: 20px;
     width: 40px;
@@ -103,6 +104,9 @@ button{
     float: right;
     margin-top: 10px;
     border: 1px solid grey;
-    height: 350;
+    height: 350px;
     width: 32%;
+}
+.aside ul{
+    margin-top: 20px;
 }
