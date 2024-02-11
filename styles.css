@@ -62,7 +62,7 @@ button{
     cursor:pointer;
 }
 .today{
-    background-image: url(images/today.jpg);
+    background-image: url(images/inner/today.jpg);
     background-size: cover;
     margin-top: 15px;
     height: 400px;
@@ -79,12 +79,13 @@ button{
     vertical-align: bottom;
 }
 .recommend{
-    background-image: url(images/recommend);
+    background-image: url(images/inner/osusume.jpg);
+    background-size: cover;
     margin-top: 15px;
     height: 400px;
     width: 48%;
     border: 1px solid grey;
-    background-color: transparent;
+    background-color: transparen
     display: flex;
     float: right;
     color: aliceblue;
@@ -110,3 +111,13 @@ button{
 .aside ul{
     margin-top: 20px;
 }
+
+
+
+.menu{
+    background-image: url(images/inner/recommend.jpg);
+    background-size: cover;
+    background-position: top;
+    opacity: 0.9;
+}
+
