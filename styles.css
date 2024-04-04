@@ -85,10 +85,10 @@ button{
     height: 400px;
     width: 48%;
     border: 1px solid grey;
-    background-color: transparen
-    display: flex;
-    float: right;
-    color: aliceblue;
+    background-color: transparent;
+    display:flex;
+    float:right;
+    color:aliceblue;
 }
 
 .facts{
@@ -112,6 +112,19 @@ button{
     margin-top: 20px;
 }
 
+.social-media-container{
+    display: flex;
+    margin-top: 800px;
+    background-color: blue;
+    height: 30px;
+
+}
+
+.footer{
+    padding-top: 10px;
+
+}
+
 
 
 .menu{
@@ -120,4 +133,7 @@ button{
     background-position: top;
     opacity: 0.9;
 }
+.menu.osu
+
+
 
