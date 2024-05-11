@@ -3,7 +3,7 @@
     padding: 0;
     border: border-box;
 }
-body{
+body.index{
     background-color: hwb(36 62% 5%);
 }
 
@@ -25,18 +25,22 @@ body{
 
 
 
-.menu{
+.sub-title{
     display: flex;
-    border: 1px solid yellow;
+    background-image: url(images/inner/recommend.jpg);
+    background-size: cover;
+    background-position: top;
+    opacity: 0.9;
 }
-.menu ul {
+
+.sub-title ul {
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
     margin-left: 45px;
 }
-.menu ul li {
+.sub-title ul li {
     margin-left: 45px;
     list-style: none;
     color: black;
@@ -44,7 +48,7 @@ body{
   
     
 }
-.menu ul li a{
+.sub-title ul li a{
     color: red;
 }
 input{
@@ -63,6 +67,7 @@ button{
 }
 .today{
     background-image: url(images/inner/today.jpg);
+    opacity: 0.9;
     background-size: cover;
     margin-top: 15px;
     height: 400px;
@@ -126,14 +131,86 @@ button{
 }
 
 
+body.menu{
+    
+    
 
-.menu{
+}
+
+.navigation-bar{
+    border: 2px solid rgb(243, 195, 195);
+}
+
+.nav-logo{
+    height: 60px;
+    width: 55px;
+    background-image: url(images/logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+
+
+
+
+.sub-title{
+    display: flex;
     background-image: url(images/inner/recommend.jpg);
     background-size: cover;
     background-position: top;
     opacity: 0.9;
 }
-.menu.osu
+
+.sub-title ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+}
+.sub-title ul li {
+    margin-left: 45px;
+    list-style: none;
+    color: black;
+    font-size: large;
+  
+    
+}
+.sub-title ul li a{
+    color: red;
+}
+input{
+    margin-top: 40px;
+    margin-left: 70px;
+    height: 15px;
+}
+button{
+    margin-top: 40px;
+    margin-right: 20px;
+    border: none;
+    height: 20px;
+    width: 40px;
+    background-color: blueviolet;
+    cursor:pointer;
+}
+
+.menu-list.osusu{
+
+    background-color: black;
+
+}
+
+.menu.container{
+    display: flex;
+    flex-direction: row;
+}
+.menu.container.item1{
+    height: 20px;
+    width: 30px;
+    
+}
 
 
 
